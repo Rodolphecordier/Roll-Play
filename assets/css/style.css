@@ -1,0 +1,156 @@
+.univer {
+    padding: 0 !important;
+}
+.container-fluid{
+    padding: 0 !important;
+}
+.row {
+    margin: 0 !important;
+}
+.crimson{
+    background-color: rgb(119, 13, 17);
+}
+.white{
+    color: rgb(246, 246, 246)!important;
+}
+
+.white:hover{
+    color: #dcdde1 !important;
+}
+
+.navbar{
+    background-color: #2f3640;
+    background-repeat:no-repeat ;
+    background-size: contain ;
+    border: 1px #dcdde1 solid ;
+
+}
+
+.navbar1 li{
+    display: inline-block;
+    float: right;
+    margin: auto;
+    padding: 10px;
+}
+
+
+
+.navbar1 li a {
+    text-decoration: none;
+}
+body{
+ background-color: #dcdde1 !important;
+
+}
+.slogan{
+   color: #2f3640;
+}
+
+.actu{
+
+    float: right;
+    width: 70%;
+    background-color: #2f3640;
+
+
+}
+
+.actu img{
+width: 50%;
+}
+.actu h4{
+
+}
+.actu p{
+    color: #dcdde1 ;
+    margin: auto;
+    text-align: center;
+    padding-top: auto;
+}
+.universcthulhu{
+    height:auto ;
+    padding: auto;
+    text-align: center;
+    min-height: 300px;
+    width: 100%;
+
+
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)
+    ),
+    url("../img/ctuhllu.png");
+    background-size: cover;
+    color: #dcdde1;
+
+}
+.universagone{
+    height:auto ;
+    text-align: center;
+    min-height: 300px;
+    width: 100%;
+
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)
+    ),
+    url("../img/agone.jpg");
+    background-size: cover;
+    color: #dcdde1;
+
+}
+.universYggdrasill{
+    height:auto ;
+    text-align: center;
+    min-height: 300px;
+    width: 100%;
+
+
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)
+    ),
+    url("../img/yggdrasill.jpg");
+    background-size: cover;
+    background-position-y: bottom;
+    color: #dcdde1;
+
+
+}
+.universmutant{
+    height:auto ;
+    text-align: center;
+    min-height: 300px;
+    width: 100%;
+
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)
+    ),
+    url("../img/mutant.jpg");
+    background-size: cover;
+    color: #dcdde1;
+
+}
+.univers p,h5{
+    position: relative;
+    top: 60px;
+    height: 100%;
+}
+.univers{
+    width: 100%;
+}
+.contact{
+    max-width: 30%;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+/* On screens that are 600px or less,*/
+@media screen and (max-width: 600px) {
+
+}
+
