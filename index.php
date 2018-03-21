@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>La mère à lucien</title>
+    <title>Accueil</title>
 
     <!-- Pour Internet Explorer : S'assurer qu'il utilise la dernière version du moteur de rendu -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -31,7 +31,7 @@
 <nav class="navbar">
     <div class="container">
         <ul class="navbar1">
-            <li><a class="white" href="#">Inscription</a></li>
+            <li><a class="white" href="./inscription.php">Inscription</a></li>
             <li><a class="white" href="#">Login</a></li>
         </ul>
     </div>
@@ -117,6 +117,20 @@
         </div>
 
     </div>
+    <div class="partenaires container-fluid">
+        <h2>Partenaires : </h2>
+        <div class="nfactory col-sm-6">
+            <img src="assets/img/logo-school.png" width="40%">
+        </div>
+
+        <div class="wf3 col-sm-6">
+            <img src="assets/img/wf3.png" width="50%">
+        </div>
+
+
+    </div>
+
+    <hr class="hr2">
     <h1>Contact:</h1>
     <div class="contact container-fluid">
 
@@ -150,7 +164,24 @@
             </div>
     </div>
     </form>
+
 </div>
+
+<footer class="page-footer font-small blue pt-4 mt-4">
+
+    <!--Footer Links-->
+    <div class="container-fluid text-center text-md-left">
+        <div class="row">
+
+
+            <div class="col-sm-12">
+
+                <p>&copy travail effectuer par Théo Da Costa, Gauthier Bosson, Hugo Ratel et Rodolphe Cordier.</p>
+            </div>
+
+        </div>
+    </div>
+</footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

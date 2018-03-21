@@ -59,6 +59,7 @@ body{
 width: 50%;
 }
 .actu h4{
+    color: #dcdde1;
 
 }
 .actu p{
@@ -112,7 +113,7 @@ width: 50%;
     ),
     url("../img/yggdrasill.jpg");
     background-size: cover;
-    background-position-y: bottom;
+    background-position-y: center;
     color: #dcdde1;
 
 
@@ -139,10 +140,79 @@ width: 50%;
 }
 .univers{
     width: 100%;
+    margin-top: 250px;
 }
 .contact{
     max-width: 30%;
     text-align: center;
+
+
+}
+#contact-form{
+    margin-bottom: 50px;
+}
+.form-inscription{
+    float: left;
+}
+.form-inscription input{
+    float: left;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: #2f3640;
+    color: #dcdde1;
+
+}
+.nfactory{
+position: relative;
+    top: 20px;
+left: 100px;
+
+}
+.wf3{
+    position: relative;
+    right: 100px;
+    top: 10px;
+
+}
+.partenaires{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.hr2{
+   border: #2f3640 0.5px solid;
+    width: 25%;
+}
+.inscription{
+    margin-left: 50px;
+    margin-top: 50px;
+    display: inline-block;
+
+}
+.inscription input{
+    padding-left:100px ;
+    text-align: left;
+}
+
+.panel{
+    background-color: #2f3640!important;
+}
+.panel-body {
+
+    background-color: #dcdde1;
+    padding: auto;
+    border: #2f3640 0.5px solid;
+    border-radius:10px ;
+    background-color: #2f3640;
+}
+.page-footer{
+
+    bottom: 0px;
+    width: 100%;
+}
+.container-inscription{
+    margin: 0px;
 }
 
 @media screen and (max-width: 992px) {
