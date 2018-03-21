@@ -31,8 +31,8 @@
 <nav class="navbar">
     <div class="container">
         <ul class="navbar1">
-            <li><a class="white" href="#">Inscription</a></li>
-            <li><a class="white" href="#">Login</a></li>
+                <li><a class="white" href="./inscription.php">Inscription</a></li>
+                <li><a class="white" href="./connexion.php">Login</a></li>
         </ul>
     </div>
 </nav>
@@ -42,6 +42,7 @@
 <!------ Include the above in your HEAD tag ---------->
 
 <div class="container-inscription">
+<h1>Inscription :</h1>
     <div class="row">
         <div class="col-md-4 col-md-offset-4">
             <div class="panel">
@@ -67,7 +68,8 @@
                                 <input type="password" class="form-control" placeholder="Mot de passe" />
                             </div>
                         </div>
-                        <a href="http://www.jquery2dotnet.com" class="btn btn-sm btn-primary btn-block" role="button">
+                        <input type="checkbox" class="cgu">J'ai lu et J'accepte les <a href="./cgu.php">condition générales d'utilisations</a></input>
+                        <a href="#" class="btn btn-sm btn-primary btn-block" role="button">
                             VALIDER</a> </form>
                 </div>
 

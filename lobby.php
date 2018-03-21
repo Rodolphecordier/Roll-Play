@@ -42,8 +42,46 @@
 <!------ Include the above in your HEAD tag ---------->
 
 <div class="container-fluid">
+<h1 class="lobbytitre">Lobby</h1>
     <div class="row">
+    
+    <div class="partie col-sm-3">
+    <h6>nom :ctuhllu </h6>
+    <h6>tags :  Science-Fiction , Fantastique</h6>
+    <h6>template : </h6>
+    <h6> joueurs :10/16 </h6>
 
+    </div>
+    <div class=" partie col-sm-3">
+    <h6>nom :Agone </h6>
+    <h6>tags : Historique Fantastique </h6>
+    <h6>template : </h6>
+    <h6> joueurs :4/4</h6>
+
+    </div>
+    <div class=" partie col-sm-3">
+    <h6>nom :Yggdrasill </h6>
+    <h6>tags : Fantastique , Magie / Occultisme</h6>
+    <h6>template : </h6>
+    <h6> joueurs :5/10</h6>
+
+    </div>
+    <div class="partie col-sm-3">
+    <h6>nom :Mutant - Année Zéro </h6>
+    <h6>tags :Post Apocalyptique </h6>
+    <h6>template : </h6>
+    <h6> joueurs :15/20</h6>
+
+    </div>
+
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class=" creer col-sm-12">
+            <p>créez votre propre partie selon vos règles, votre univer.</p>
+            <button value="Créer" type="submit" name="créer" class="creerbtn">CRÉER UNE PARTIE</button>
+        </div>
     </div>
 </div>
 <footer class="page-footer font-small blue pt-4 mt-4">

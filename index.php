@@ -32,7 +32,7 @@
     <div class="container">
         <ul class="navbar1">
             <li><a class="white" href="./inscription.php">Inscription</a></li>
-            <li><a class="white" href="#">Login</a></li>
+            <li><a class="white" href="./connexion.php">Login</a></li>
         </ul>
     </div>
 </nav>
