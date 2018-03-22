@@ -350,5 +350,13 @@ left: 100px;
     color: #2f3640;
     background: #ffffff;
 }
+.profil{
+    background-color: #2f3640 ;
+    text-align: center;
+    color: #dcdde1;
+    border-radius: 50px;
+    margin-bottom: 20px;
+
+}
 
 
