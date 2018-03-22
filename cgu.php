@@ -66,7 +66,7 @@
             <h4><span>Propriété intellectuelle :</span></h4>
             <p>
                     Le site web a été réalisé par notre équipe : Théo Da Costa, Gauthier Bosson, Hugo Ratel et Rodolphe Cordier. 
-                    Il est la propriété de l’association et ne peut faire l’objet de reproduction.
+                    ne peut faire l’objet de reproduction.
                     </p>
 
                     <h4><span>Photographies et contenu :</span></h4>
@@ -91,7 +91,7 @@
 
                 <div class="col-sm-12">
 
-                    <p>&copy travail effectuer par Théo Da Costa, Gauthier Bosson, Hugo Ratel et Rodolphe Cordier.</p>
+                    <p>&copy travail effectué par Théo Da Costa, Gauthier Bosson, Hugo Ratel et Rodolphe Cordier.</p>
                 </div>
 
             </div>

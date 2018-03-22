@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Lobby</title>
+    <title>Accueil</title>
 
     <!-- Pour Internet Explorer : S'assurer qu'il utilise la dernière version du moteur de rendu -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <!--  Font Awesome | Icons -->
-
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -33,84 +32,18 @@
 <nav class="navbar">
     <div class="container">
         <ul class="navbar1">
-            <li><a class="white" href="#">Inscription</a></li>
-            <li><a class="white" href="#">Login</a></li>
+            <li><a class="white" href="./inscription.php">Inscription</a></li>
+            <li><a class="white" href="./connexion.php">Login</a></li>
         </ul>
     </div>
 </nav>
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
-
-<div class="container-fluid">
-<h1 class="lobbytitre">Lobby</h1>
+<div class="container-full">
     <div class="row">
-
-    <div class="partie col-sm-3">
-    <h6>nom :ctuhllu </h6>
-        <h6> categorie : Science-Fiction</h6>
-        <h6> déscription :</h6>
-
-
-
-    </div>
-    <div class=" partie col-sm-3">
-    <h6>nom :Agone </h6>
-        <h6> categorie :Historique</h6>
-        <h6> déscription :</h6>
-
-
-    </div>
-    <div class=" partie col-sm-3">
-    <h6>nom :Yggdrasill </h6>
-        <h6> categorie :Fantastique</h6>
-        <h6> déscription :</h6>
-
-
-    </div>
-    <div class="partie col-sm-3">
-    <h6>nom :Mutant - Année Zéro </h6>
-    <h6> categorie : post-apocalyptique</h6>
-    <h6> déscription :</h6>
-
-    </div>
-
-
+        <div class="col-sm-"
     </div>
 </div>
 
-<div class="container-fluid">
-    <div class="row">
-        <input type="submit"  id="btn" class="btn" value="Créer" style="font-size: 16px"><br />
-        <div class="row">
-            <div id="creation">
-                <input type="text" placeholder="nom partie">
-                <select>
-                    <option value="post-apocalyptique">post-apocalyptique</option>
-                    <option value="historique">historique</option>
-                    <option value="sciences-fiction">sciences-fiction</option>
-                    <option value="fantastique">fantastique</option>
-                </select>
-                <textarea placeholder="description"></textarea>
-            </div>
-        </div>
-        <script>
-            $(".btn").click(function(){
-                $('#creation').css("visibility", 'visible');
-            });
-        </script>
-        <div class=" creer col-sm-12">
-            <p>créez votre propre partie selon vos règles, votre univers.</p>
-
-
-        </div>
-    </div>
-
-
-</div>
-
-<footer class="page-footer font-small blue pt-4 mt-4" style="width: 100%">
+<footer class="page-footer font-small blue pt-4 mt-4">
 
     <!--Footer Links-->
     <div class="container-fluid text-center text-md-left">

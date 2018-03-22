@@ -87,7 +87,7 @@
 
                 <div class="col-sm-12">
 
-                    <p>&copy travail effectuer par Théo Da Costa, Gauthier Bosson, Hugo Ratel et Rodolphe Cordier.</p>
+                    <p>&copy travail effectué par Théo Da Costa, Gauthier Bosson, Hugo Ratel et Rodolphe Cordier.</p>
                 </div>
 
             </div>

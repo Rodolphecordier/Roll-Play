@@ -15,6 +15,7 @@
 
     <!-- Styles CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
     <!--  Font Awesome | Icons -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -176,7 +177,7 @@
 
             <div class="col-sm-12">
 
-                <p>&copy travail effectuer par Théo Da Costa, Gauthier Bosson, Hugo Ratel et Rodolphe Cordier.</p>
+                <p>&copy travail effectué par Théo Da Costa, Gauthier Bosson, Hugo Ratel et Rodolphe Cordier.</p>
             </div>
 
         </div>
