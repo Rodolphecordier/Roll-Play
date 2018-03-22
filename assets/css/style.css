@@ -34,8 +34,20 @@
 
 
 
-.navbar1 li a {
+.navbar{
+    background-color: #2f3640;
+    margin-bottom: 0;
+}
+
+.navbar ul li{
+    display: inline-block;
+    float: right;
+    line-height: 40px;
     text-decoration: none;
+}
+
+.navbar ul li:nth-child(2){
+    margin-right: 5px;
 }
 body{
  background-color: #dcdde1 !important;
@@ -283,14 +295,60 @@ left: 100px;
     text-align: center;
 
 }
+.joueurs{
+    border: 2px #2f3640 solid;
+    height: 600px;
 
+}
 
-@media screen and (max-width: 992px) {
+.page-footer{
+    max-height: 30px;
+}
+*{
+    padding: 0!important;
+}
+.ajoutjoueur{
+   display: inline;
+    white-space: pre-line;
 
 }
 
-/* On screens that are 600px or less,*/
-@media screen and (max-width: 600px) {
+.ajoutjoueur h4{
+    padding-bottom: 20px;
+    color: #2f3640;
+}
+.tchat{
+    border: #2f3640 2px solid;
+    height: 200px;
+    position: relative;
+    bottom: 2px;
+
 
 }
+
+.buttonnav {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: relative;
+    cursor: pointer;
+    top: 0;
+    padding: 0 12px;
+    border: 1px solid rgb(255,255,255);
+    font: normal normal bold 15px/30px Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #2f3640;
+}
+
+.buttonnav:hover {
+    text-decoration: none;
+    color: #2f3640;
+    background: #ffffff;
+}
+
 

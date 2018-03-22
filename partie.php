@@ -31,15 +31,42 @@
 <body>
 <nav class="navbar">
     <div class="container">
-        <ul class="navbar1">
-            <li><a class="white" href="./inscription.php">Inscription</a></li>
-            <li><a class="white" href="./connexion.php">Login</a></li>
+        <ul>
+            <li><a class="buttonnav" href="#">Inscription</a></li>
+            <li><a class="buttonnav" href="#">Login</a></li>
         </ul>
     </div>
 </nav>
 <div class="container-full">
     <div class="row">
-        <div class="col-sm-"
+
+        <div class="joueurs col-sm-3">
+            <h4>Ajouter joueur</h4>
+<form class="ajoutjoueur">
+    <input type="text" placeholder="nom">
+    <input type="file" placeholder="avatar">
+    <input type="text" placeholder="caracteristique">
+    <input type="text" placeholder="competence">
+    <input type="text" placeholder=" inventaire">
+        <textarea placeholder="description"></textarea>
+</form>
+
+
+
+        </div>
+        <div class="plateau col-sm-9">
+            <img src="./assets/img/map.PNG" style="max-width: 100%">
+        </div>
+    </div>
+    <div class="row">
+        <div class="de col-sm-3">
+
+        </div>
+        <div class=" tchat col-sm-9">
+
+        </div>
+
+
     </div>
 </div>
 
